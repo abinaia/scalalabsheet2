@@ -1,0 +1,8 @@
+Java: Best for those who need a reliable, straightforward, and well-supported language with a large ecosystem, especially for traditional OOP and enterprise applications.
+Scala: Ideal for developers looking for a modern language that combines OOP and functional programming, with concise syntax and powerful features, suitable for both small and large-scale applications.
+ava Increment Operator
+Post-Increment and Pre-Increment
+Post-Increment (i++): Increments the value of i by one but returns the original value before incrementing.
+Pre-Increment (++i): Increments the value of i by one and returns the new value after incrementing.
+Scala: Does not have built-in increment (++) or decrement (--) operators. This design decision is in line with Scala's emphasis on immutability and functional programming principles.
+Mutable Variables: Use the += operator for mutability
