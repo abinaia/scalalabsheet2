@@ -1,0 +1,19 @@
+@main def main(): Unit = {
+  var i,j,k=2
+  var m,n=5
+  var f=12.0f
+  var g=4.0f
+  var c='X'
+  val one=k+12*m
+  println(s"k+12*m=$one")
+  val two=m/j
+  println(s"m/j=$two")
+  val three=n%j
+  println(s"n%j=$three")
+  val four=m/j*j
+  println(s"m/j*j=$four")
+  val five=f+10*5+g
+  println(s"f+10*5+g=$five")
+  val six=(i+1)*n //Scala does not support the ++ operator like in other language
+  println(s"++i*n=$six")
+}
